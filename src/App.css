@@ -1,3 +1,6 @@
+@import 'antd/dist/antd.css';
+
+
 .App {
   text-align: center;
 }
@@ -35,4 +38,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.ant-table table { font-size: 15px; }
+
+.ant-list-item {
+  font-size: 15px;
 }
